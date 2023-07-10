@@ -2,6 +2,10 @@
 
 *{
     font-family: 'Open Sans', sans-serif;
+    
+}
+body{
+    margin: 0;
 }
 /* Navbar styles */
 
@@ -9,6 +13,8 @@ nav{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    margin: 0 150px;
+    
     
 }
 
@@ -47,4 +53,19 @@ nav a{
     border:none;
     color: #fff;
 
+}
+
+/* Header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .banner-picture .banner-pic{
+    width: 400px;
 }
