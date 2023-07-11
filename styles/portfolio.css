@@ -95,7 +95,7 @@ nav a {
   
 }
 
-.about-heading {
+.heading {
     color: #181818;
     font-size: 35px;
     font-weight: 700;
@@ -108,7 +108,7 @@ nav a {
 
 }
 
-.about-heading,
+.heading,
 .about-description {
     text-align: center;
 }
@@ -132,4 +132,13 @@ nav a {
     color:#474747;
     line-height: 0px;
     font-weight: 700px;
+}
+
+#skill-description{
+    padding: 0 100px;
+}
+
+.skill-information{
+    display: flex;
+    margin: 50px 0;
 }
